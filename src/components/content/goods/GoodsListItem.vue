@@ -25,7 +25,7 @@
           this.$bus.$emit("itemImageLoad")
         },
         showDetail(){
-          this.$router.push('/detail/'+this.goodsItem.id)
+          this.$router.push('/detail/'+this.goodsItem.id+'/itemIdUrl'+this.goodsItem.id)
         }
       }
     }
